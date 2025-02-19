@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+:root {
+  --cor0: #04d9d9;
+  --cor1: #021e73;
+  --cor2: #021859;
+  --cor3: #011140;
+  --cor4: #010a26;
+  --cor-fundo: #f1f1f1;
+  --cor-titulos: #4775ff;
+  --cor-textos: #344269;
+  --fonte-txt: "Share Tech Mono", serif;
+  --fonte-titulo: "Silkscreen", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cor-fundo);
+}
