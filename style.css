@@ -8,11 +8,12 @@
   --cor2: #021859;
   --cor3: #011140;
   --cor4: #010a26;
-  --cor-fundo: #f1f1f1;
-  --cor-titulos: #4775ff;
-  --cor-textos: #344269;
+  --cor-fundo: #04d9d941;
+  --cor-titulos: #7da0ff;
+  --cor-textos: #c3d3ff;
   --fonte-txt: "Share Tech Mono", serif;
   --fonte-titulo: "Silkscreen", serif;
+  --main-cor: #021e7359;
 }
 
 * {
@@ -23,4 +24,23 @@
 
 body {
   background-color: var(--cor-fundo);
+  height: 100vh;
+}
+
+p {
+  text-indent: 5%;
+  line-height: 40px;
+  text-align: justify;
+  font-family: var(--fonte-txt);
+  font-size: 1.75rem;
+  color: var(--cor-textos);
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--fonte-titulo);
+  color: var(--cor-titulos);
+  padding: 1rem;
+  font-weight: 300;
+  font-size: 3rem;
 }

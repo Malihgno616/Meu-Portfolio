@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello, World!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="btn.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css" />
     <link
       rel="shortcut icon"
       href="icons8-circuito-48.png"
@@ -14,16 +22,22 @@
   <body>
     <header class="header">
       <nav class="nav-bar">
-        <a href="#">Projetos</a>
         <a href="#">Sobre</a>
+        <a href="#">Projetos</a>
         <a href="#">Contato</a>
       </nav>
     </header>
-    <main class="main">
-        
-    </main>
-    <footer class="footer">
 
+    <main class="main">
+      <button class="btn" id="btn-section">clique aqui</button>
+    </main>
+
+    <footer class="footer">
+      <p id="copy">
+        &copy; 2023 - Desenvolvido por <a target="_blank" href="#">Ackin</a> -
+        Todos os direitos reservados.
+      </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
