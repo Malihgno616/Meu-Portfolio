@@ -36,6 +36,13 @@ p {
   color: var(--cor-textos);
 }
 
+a {
+  text-decoration: none;
+  color: var(--cor-textos);
+  font-family: var(--fonte-txt);
+  font-size: 1.75rem;
+}
+
 h1 {
   text-align: center;
   font-family: var(--fonte-titulo);

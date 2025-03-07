@@ -41,7 +41,6 @@ if (localStorage.getItem("show") === "true") {
   if (!document.querySelector(".section")) {
     createSectionAndButton();
   }
-
   btn.removeEventListener("click", handleClick);
 } else {
   btn.addEventListener("click", handleClick);

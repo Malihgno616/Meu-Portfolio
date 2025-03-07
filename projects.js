@@ -1,15 +1,19 @@
-import "../section.js"; // Deve estar no topo do arquivo, antes de qualquer outro código
+import "../section.js";
 
-btnProject.addEventListener("click", function (event) {
-  event.preventDefault();
+while ((btnProject.clicked = 3)) {
+  btnProject.addEventListener("click", function (event) {
+    event.preventDefault();
 
-  const paragraph = document.createElement("p");
-  paragraph.textContent = "Testando";
+    const mainElement = document.querySelector(".main");
+    const container = mainElement.appendChild(document.createElement("div"));
+    container.classList.add("container");
 
-  const mainElement = document.querySelector(".main");
-  if (mainElement) {
-    mainElement.appendChild(paragraph);
-  } else {
-    console.error("Element with class 'main' not found.");
-  }
-});
+    const box = container.appendChild(document.createElement("div"));
+    box.classList.add("box");
+
+    const link = box.appendChild(document.createElement("a"));
+    link.textContent = "Projeto";
+    link.href = "#";
+    link.rel = "noopener noreferrer";
+  });
+}
